@@ -27,8 +27,7 @@ void FillArray(double[,] matr)
 void ChangeArray(double[,] matr)
 {          
     for (int i = 0; i < matr.GetLength(0); i++)
-    {   
-        Random random = new Random();
+    {           
         for (int j = 0; j < matr.GetLength(1); j++)
         {                        
             if (i % 2 == 0 && j % 2 == 0)
